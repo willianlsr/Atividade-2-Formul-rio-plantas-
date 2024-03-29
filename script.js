@@ -13,10 +13,7 @@ function salvar(){
             alert("Preencha a espécie da planta:")
             return false
         }
-        if (altura.trim() == ""){
-            alert("Preencha a altura máxima da planta:")
-            return false
-        }
+        
         alert("CADASTRADO COM SUCESSO")
 
 
