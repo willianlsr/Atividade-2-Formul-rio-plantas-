@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário plantas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <form id="form-cadastro" onsubmit="return false">
+        <div class="linha">
+            <label>Nome da planta:</label>
+            <input type="text" name="NomePlanta" placeholder="Digite o nome da planta"  maxlength="40">
+        </div>
+
+        <div class="linha">
+            <label>Espécie:</label>
+            <input type="text" name="EspeciePlanta" placeholder="Digite o nome da espécie" maxlength="40" >
+        </div>
+        
+        <div class="linha">
+            <label>Altura máxima(Cm):</label>
+            <input type="number" name="AlturaMaxima" placeholder="Digite a altura máxima em Cm">
+       </div>
+
+       <input type="submit" name="enviar" value="cadastrar" onclick="salvar()">
+
+    </form>
+
+    <script src="script.js"></script>
+
+    
+
+    
+    
+</body>
+</html>
